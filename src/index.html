@@ -36,21 +36,20 @@
         </nav>
     </div>
     <section id="home">
-        <div class="flex flex-col lg:flex-row px-6 lg:px-20">
-            <!-- Text Content -->
-            <div class="w-full lg:w-3/5 pt-24 lg:pt-40">
+        <div class="flex flex-col lg:flex-row md:flex-row px-6 lg:px-20">
+            
+            <div class="w-full lg:w-3/5 pt-24 md:pt-28 lg:pt-40">
                 <div>
-                    <p class="text-lg lg:text-[20px] text-stone-600 font-medium">Hello, I'm </p>
-                    <h1 class="text-4xl lg:text-[50px] font-bold text-stone-600">Elizabeth Ogundepo</h1>
-                    <div class="typing-text text-3xl lg:text-5xl font-bold text-blue-500"></div>
-                    <p class="text-lg lg:text-[20px] text-stone-600 font-medium pt-2">📍 Lagos, Nigeria</p>
-                    <p class="text-base lg:text-[18px] font-medium text-stone-600 pt-2">
+                    <p class="text-lg md:text-[18px] lg:text-[20px] text-stone-600 font-medium">Hello, I'm </p>
+                    <h1 class="text-4xl md:text-[42px] lg:text-[50px] font-bold text-stone-600">Elizabeth Ogundepo</h1>
+                    <div class="typing-text text-3xl md:text-4xl lg:text-5xl font-bold text-blue-500"></div>
+                    <p class="text-lg md:text-[18px] lg:text-[20px] text-stone-600 font-medium pt-2">📍 Lagos, Nigeria</p>
+                    <p class="text-base md:text-[16px] lg:text-[18px] font-medium text-stone-600 pt-2">
                         I'm a DevOps and Cloud Engineer with a background in infrastructure provisioning, automation, and cloud management. 2x Certified in AWS, I have hands-on experience with tools like Jenkins, Terraform, and Kubernetes, and I'm skilled in streamlining processes to improve efficiency and reliability.
                     </p>
                 </div>
                 
-                <!-- Buttons -->
-                <div class="pt-4 lg:pt-2 flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4">
+                <div class="pt-4 lg:pt-2 md:pt-3 flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4">
                     <button onclick="window.open('./assets/ElizabethOgundepo.pdf')" class="bg-transparent border-2 border-stone-600 text-stone-600 w-full sm:w-32 p-3 rounded-full hover:bg-black hover:text-white hover:border-none">
                         Download CV
                     </button>
@@ -59,8 +58,7 @@
                     </button></a>
                 </div>
                 
-                <!-- Social Links -->
-                <div class="pt-6 lg:pt-8 flex justify-center sm:justify-start space-x-8">
+                <div class="pt-6 md:pt-7 lg:pt-8 md:pl-6 flex justify-center sm:justify-start space-x-8">
                     <a href="https://www.linkedin.com/in/elizabeth-ogundepo-05177225b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
                        target="_blank" 
                        rel="noopener noreferrer" 
@@ -83,12 +81,12 @@
             </div>
     
             <!-- SVG Illustration -->
-            <div class="w-full lg:w-2/5 pt-12 lg:pt-52 px-4 lg:pr-10">
+            <div class="w-full md:w-2/5 lg:w-2/5 pt-12 md:pt-40 lg:pt-52 px-4 md:px-8 lg:pr-10">
                 <svg
                     viewBox="0 0 1273 906"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="w-full h-auto max-w-[450px] mx-auto"
+                    class="w-full h-auto max-w-[350px] md:max-w-[400px] lg:max-w-[450px] mx-auto"
                 >
                     <g>
                         <path
@@ -145,19 +143,23 @@
         </div>
     </section>
     <section id="about">
-        <div class="lg:pt-32 pt-16 lg:px-40 px-16">
-            <div>
-                <p class="lg:text-[20px] text-lg text-center font-medium text-stone-600">Get To Know More</p>
-                <h1 class="lg:text-[48px] text-3xl text-center font-bold text-blue-500">About Me</h1>
-                <p class="lg:text-[18px] text-xs text-stone-600 pt-3">
-                    I'm a passionate and skilled DevOps, Cloud Architect, and Cloud Engineer with a strong background in infrastructure provisioning, automation, and monitoring. I have completed and been certified by AWS for AWS Certified Cloud Practitioner and Associate Solution Architect. 
-                </p>
-                <p class="lg:text-[18px] text-xs text-stone-600 pt-3">
-                    Have experience working with tools such as Jenkins, Terraform, and Ansible to streamline development processes and ensure efficient code deployment. Proficient in managing and monitoring cloud infrastructure services on AWS and GCP, as well as maintaining high availability in Kubernetes-based container clusters. Successfully implemented monitoring and logging tools like ELK, Grafana, and Datadog to ensure comprehensive visibility into system performance and implemented GitOps for managing infrastructure as code. My expertise also includes integrating automation testing into the CI/CD pipeline and developing scripts to automate tasks, improving efficiency and reducing manual effort. 
-                </p>
-                <p class="lg:text-[18px] text-xs text-stone-600 pt-3">
-                    With a Bachelor's degree in Computer Science and a strong GPA, I am committed to continuous learning and professional growth. I am seeking opportunities to leverage my skills and contribute to the success of DevOps, SRE and cloud engineering projects.
-                </p>
+        <div class="pt-16 lg:pt-32 px-4 sm:px-8 md:px-10 lg:px-40">
+            <div class="max-w-4xl mx-auto">
+                <p class="text-lg lg:text-[20px] text-center font-medium text-stone-600">Get To Know More</p>
+                <h1 class="text-3xl lg:text-[48px] text-center font-bold text-blue-500 mt-2">About Me</h1>
+                <div class="mt-6 space-y-6">
+                    <p class="text-sm md:text-base sm:text-base lg:text-[18px] text-stone-600 leading-relaxed">
+                        I'm a passionate and skilled DevOps, Cloud Architect, and Cloud Engineer with a strong background in infrastructure provisioning, automation, and monitoring. I have completed and been certified by AWS for AWS Certified Cloud Practitioner and Associate Solution Architect. 
+                    </p>
+                    
+                    <p class="text-sm md:text-base sm:text-base lg:text-[18px] text-stone-600 leading-relaxed">
+                        Have experience working with tools such as Jenkins, Terraform, and Ansible to streamline development processes and ensure efficient code deployment. Proficient in managing and monitoring cloud infrastructure services on AWS and GCP, as well as maintaining high availability in Kubernetes-based container clusters. Successfully implemented monitoring and logging tools like ELK, Grafana, and Datadog to ensure comprehensive visibility into system performance and implemented GitOps for managing infrastructure as code. My expertise also includes integrating automation testing into the CI/CD pipeline and developing scripts to automate tasks, improving efficiency and reducing manual effort. 
+                    </p>
+                    
+                    <p class="text-sm md:text-base sm:text-base lg:text-[18px] text-stone-600 leading-relaxed">
+                        With a Bachelor's degree in Computer Science and a strong GPA, I am committed to continuous learning and professional growth. I am seeking opportunities to leverage my skills and contribute to the success of DevOps, SRE and cloud engineering projects.
+                    </p>
+                </div>
                 <h2 class="lg:text-[24px] lg:text-left text-center text-xl text-stone-600 pt-6 font-bold italic underline">TECHNOLOGIES I WORK WITH</h2>
                 <p class="lg:pt-4 pt-2 lg:text-[24px] text-xl font-semibold tracking-wide text-stone-600">Build</p>
                 <div class="flex lg:pt-6 pt-2 lg:space-x-4 space-x-1">
@@ -217,10 +219,10 @@
         </div>
     </section>
     <section id="portfolio">
-        <div class="lg:pt-20 pt-6 lg:px-40 px-16 lg:pb-20 pb-6">
+        <div class="lg:pt-20 md:pt-12 pt-6 lg:px-40 md:px-20 px-16 lg:pb-20 pb-6">
             <h1 class="lg:text-[48px] text-3xl text-center font-bold text-blue-500">Portfolio</h1>
-            <h2 class="lg:text-[24px] text-xl lg:text-left text-center text-stone-600 pt-6 font-bold italic underline">CERTIFICATIONS</h2>
-            <div class="lg:pt-12 pt-4 lg:flex-row flex flex-col lg:space-x-28 space-y-12">
+            <h2 class="lg:text-[24px] md:text-[20px] text-xl lg:text-left text-center text-stone-600 pt-6 md:pt-10 font-bold italic underline">CERTIFICATIONS</h2>
+            <div class="lg:pt-12 md:pt-8 pt-4 lg:flex-row md:flex-row flex flex-col lg:gap-28 gap-12">
                 <div>
                     <img src="assets/cloudprac.png" class="h-64 w-64 border-2 border-stone-600 rounded-xl">
                     <p class="text-center text-[18px] font-semibold pt-2 text-stone-600">AWS Certified Cloud Practitioner</p>
@@ -230,8 +232,8 @@
                     <p class="text-center text-[18px] font-semibold pt-2 text-stone-600">AWS Certified Associate Solutions <br>Architect</p>
                 </div>
             </div>
-            <h2 class="lg:text-[24px] text-xl lg:text-left text-center text-stone-600 pt-6 font-bold italic underline">PROJECTS</h2>
-            <div class="grid lg:grid-cols-3 grid-cols-1 gap-4 pt-10">
+            <h2 class="lg:text-[24px] md:text-[20px] text-xl lg:text-left text-center text-stone-600 pt-6 md:pt-10 font-bold italic underline">PROJECTS</h2>
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 pt-10">
                 <div class="w-full h-full bg-slate-100 lg:p-5 p-2 relative group overflow-hidden">
                     <img src="assets/cloudprac.png">
                     <h3 class="text-[24px] font-semibold text-black text-center">Serverless App</h3>
@@ -244,7 +246,7 @@
 
 
                     </p>
-                    <div class="absolute top-1/2 left-1.5 transform lg:translate-x-20 translate-x-12 -translate-y-1/2 hidden group-hover:flex space-x-2 z-10">
+                    <div class="absolute top-1/2 left-1.5 transform lg:translate-x-20 md:translate-x-16 translate-x-11 -translate-y-1/2 hidden group-hover:flex space-x-2 z-10">
                         <button class="bg-blue-500 text-white px-2 py-1 rounded">Project Documentation</button>
                     </div>
                     <div class="absolute inset-0 bg-blue-500 opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
@@ -261,7 +263,7 @@
 
 
                     </p>
-                    <div class="absolute top-1/2 left-1.5 transform lg:translate-x-20 translate-x-12 -translate-y-1/2 hidden group-hover:flex space-x-2 z-10">
+                    <div class="absolute top-1/2 left-1.5 transform lg:translate-x-20 md:translate-x-16 translate-x-12 -translate-y-1/2 hidden group-hover:flex space-x-2 z-10">
                         <button class="bg-blue-500 text-white px-2 py-1 rounded">Project Documentation</button>
                     </div>
                     <div class="absolute inset-0 bg-blue-500 opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
@@ -278,7 +280,7 @@
 
 
                     </p>
-                    <div class="absolute top-1/2 left-1.5 transform lg:translate-x-20 translate-x-12 -translate-y-1/2 hidden group-hover:flex space-x-2 z-10">
+                    <div class="absolute top-1/2 left-1.5 transform lg:translate-x-20 md:translate-x-16 translate-x-12 -translate-y-1/2 hidden group-hover:flex space-x-2 z-10">
                         <button class="bg-blue-500 text-white px-2 py-1 rounded">Project Documentation</button>
                     </div>
                     <div class="absolute inset-0 bg-blue-500 opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
@@ -295,7 +297,7 @@
 
 
                     </p>
-                    <div class="absolute top-1/2 left-1.5 transform lg:translate-x-20 translate-x-12 -translate-y-1/2 hidden group-hover:flex space-x-2 z-10">
+                    <div class="absolute top-1/2 left-1.5 transform lg:translate-x-20 md:translate-x-16 translate-x-12 -translate-y-1/2 hidden group-hover:flex space-x-2 z-10">
                         <button class="bg-blue-500 text-white px-2 py-1 rounded">Project Documentation</button>
                     </div>
                     <div class="absolute inset-0 bg-blue-500 opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
@@ -312,7 +314,7 @@
 
 
                     </p>
-                    <div class="absolute top-1/2 left-1.5 transform lg:translate-x-20 translate-x-12 -translate-y-1/2 hidden group-hover:flex space-x-2 z-10">
+                    <div class="absolute top-1/2 left-1.5 transform lg:translate-x-20 md:translate-x-16 translate-x-12 -translate-y-1/2 hidden group-hover:flex space-x-2 z-10">
                         <button class="bg-blue-500 text-white px-2 py-1 rounded">Project Documentation</button>
                     </div>
                     <div class="absolute inset-0 bg-blue-500 opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
@@ -329,7 +331,7 @@
 
 
                     </p>
-                    <div class="absolute top-1/2 left-1.5 transform lg:translate-x-20 translate-x-12 -translate-y-1/2 hidden group-hover:flex space-x-2 z-10">
+                    <div class="absolute top-1/2 left-1.5 transform lg:translate-x-20 md:translate-x-16 translate-x-12 -translate-y-1/2 hidden group-hover:flex space-x-2 z-10">
                         <button class="bg-blue-500 text-white px-2 py-1 rounded">Project Documentation</button>
                     </div>
                     <div class="absolute inset-0 bg-blue-500 opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
