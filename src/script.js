@@ -61,7 +61,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function toggleMobileMenu() {
     const mobileMenu = document.getElementById('mobileMenu');
-    mobileMenu.classList.toggle('hidden');
+    mobileMenu.classList.toggle('translate-x-0');
+    mobileMenu.classList.toggle('translate-x-full');
 }
 
 // Close mobile menu when clicking outside
