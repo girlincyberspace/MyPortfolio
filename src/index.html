@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="output.css">
     <script  src="script.js"></script>
 </head>
-<body class="pb-10">
-    <div class="flex w-full bg-white justify-between items-center px-4 h-20 sm:px-10 border-b-2 fixed left-0 right-0 top-0 z-50">
+<body class="pb-10 overflow-x-hidden">
+    <div class="flex w-full bg-white justify-between items-center px-4 h-20 sm:px-10 border-b-2 fixed left-0 top-0 z-50">
         <a href="#home" class="font-bold italic tracking-widest text-stone-600 hover:text-black sm:text-[20px] text-[20px]">Elizabeth.Ogundepo</a>
         <nav class="hidden md:flex items-center transition-colors duration-300">
             <ul class="flex items-center font-medium text-stone-600 space-x-8 text-[20px]">
@@ -25,7 +25,7 @@
             </svg>
         </button>
     </div>
-    <div id="mobileMenu" class="fixed top-20 left-0 right-0 w-screen bg-white border-b-2 hidden md:hidden transition-transform duration-300 ease-in-out z-40">
+    <div id="mobileMenu" class="fixed top-20 left-0 right-0 w-full bg-white border-b-2 hidden md:hidden transition-transform duration-300 ease-in-out z-40">
         <nav class="px-4 py-6">
             <ul class="flex flex-col space-y-4 font-medium text-stone-600 text-[18px]">
                 <a href="#home" class="hover:text-black px-2 py-1" onclick="toggleMobileMenu()">Home</a>
