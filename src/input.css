@@ -7,6 +7,7 @@
 
 body {
   font-family: "Poppins";
+  overflow-x: hidden; /* Ensure no horizontal overflow */
 }
 
 .typing-text {
